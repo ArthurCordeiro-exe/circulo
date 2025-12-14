@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class ContatoBase(ABC):
 
-    def __init__(self, id:str, email:str):
+    def __init__(self, id: str, email: str):
         self.id = id
         self.email = email
 
@@ -12,13 +12,12 @@ class ContatoBase(ABC):
         pass
 
     @abstractmethod
-    def setId(self, id:str):
+    def setId(self, id: str):
         pass
 
     def getEmail(self):
-        return None
+        return self.email
 
     @abstractmethod
-    def setEmail(self, email:str):
+    def setEmail(self, email: str):
         pass
-
