@@ -12,10 +12,10 @@ class CirculoBase(ABC):
         pass
 
     def getId(self):
-        return self.id
+        return None
 
     def getLimite(self):
-        return self.limite
+        return 0
 
     @abstractmethod
     def getNumberOfContacts(self):

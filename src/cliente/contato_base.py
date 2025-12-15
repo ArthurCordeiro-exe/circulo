@@ -16,7 +16,7 @@ class ContatoBase(ABC):
         pass
 
     def getEmail(self):
-        return self.email
+        return None
 
     @abstractmethod
     def setEmail(self, email: str):

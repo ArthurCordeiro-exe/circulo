@@ -7,4 +7,4 @@ class ContatoNotFoundException(ExceptionBase):
         super().__init__(message)
 
     def getContatoNaoEncontrado(self):
-        return self.contatoId
+        return None

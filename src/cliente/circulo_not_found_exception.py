@@ -7,4 +7,4 @@ class CirculoNotFoundException(ExceptionBase):
         super().__init__(message)
 
     def getCirculoNaoEncontrado(self):
-        return self.circuloId
+        return None
